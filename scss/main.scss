@@ -1,0 +1,66 @@
+@import './config', './default', './footer';
+body{
+    background-color: $light-grayish-blue;
+    height: 100vh;
+    @include flexCenter(column, center);
+}
+
+
+
+.container{
+    width: 350px;
+    background-color: white;
+    margin: $mg;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0, 0.2);
+    overflow: hidden;
+    @include desktop{
+        width: 70%;
+        max-width: 1200px;
+        display: flex;
+        overflow: visible;
+    }
+    &__image{
+        width: 100%;
+        height: 200px;
+        
+        background: url('../images/drawers.jpg') no-repeat center;
+        background-size: cover;
+        @include desktop{
+            width: 60%; 
+            height: auto; 
+            border-radius: 20px 0 0 20px;
+        }
+    }
+    .container__content{
+        padding: $pd;
+        &__title, &__body{
+            margin-top: 1rem;
+            line-height: $lh;
+            padding: $element-pd;
+        }
+
+        &__title{
+            color: $very-dark-grayish-blue;
+            @include desktop{
+                line-height: 3rem;
+                font-size: 1.5rem;
+            }
+        }
+
+        &__body{
+            font-size: $fs;
+            color: $dark-blue;
+            @include desktop{
+                line-height: 2.5rem;
+                font-size: $fs * 1.1
+            }
+        }
+
+    }
+}
+
+
+
+
+
