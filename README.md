@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/responsive-and-transition-page-using-sass-and-javascript-HqgNfljBM)
+- Live Site URL: [Link](https://keen-tesla-87c42c.netlify.app/m)
 
 ## My process
 
